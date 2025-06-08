@@ -13,7 +13,7 @@ interface ExpertCardProps {
 
 const experts: ExpertCardProps[] = [
   {
-    image: "/expert-1.jpg",
+    image: "/Mohit-Sir.jpeg",
     name: "Mohit Vaishnav",
     title: "CEO of AI Security Strategy",
     description:
@@ -21,7 +21,7 @@ const experts: ExpertCardProps[] = [
     cta: "Speak with a Kimova AI expert",
   },
   {
-    image: "/expert-2.jpg",
+    image: "/Krishna-Map.jpeg",
     name: "Krishna Vaishnav",
     title: "Lead Architect, Ethical AI",
     description:
@@ -50,7 +50,7 @@ export default function ExpertConnectSection() {
                   src={expert.image}
                   alt={expert.name}
                   fill
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
               <div className="p-6 flex flex-col justify-between w-full sm:w-1/2">
