@@ -71,7 +71,6 @@ export default function Recommended() {
   return (
     <section className="bg-gradient-to-br from-[#0a0402] via-[#1a0e08] to-[#291d0f] py-12 px-4 sm:px-6 text-white">
       <div className="max-w-7xl mx-auto">
-        {/* Heading and Arrows */}
         <div className="flex justify-between items-center mb-6">
           <h3 className="text-sm sm:text-base font-medium tracking-widest uppercase">
             Recommended
@@ -94,7 +93,6 @@ export default function Recommended() {
           </div>
         </div>
 
-        {/* Scrollable Cards */}
         <div
           ref={scrollRef}
           className="flex gap-5 overflow-x-auto pb-2 whitespace-nowrap scroll-smooth no-scrollbar"

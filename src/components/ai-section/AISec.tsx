@@ -48,9 +48,7 @@ const data = [
 const PrecisionAISection: FC = () => {
   return (
     <div>
-      {/* === FIRST SECTION === */}
       <section className="relative bg-black text-white flex flex-col justify-center items-center overflow-hidden px-4 py-20 sm:py-28">
-        {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
             src="/background-video.jpg"
@@ -60,7 +58,6 @@ const PrecisionAISection: FC = () => {
           />
         </div>
 
-        {/* Heading */}
         <div className="z-10 text-center max-w-2xl mb-10">
           <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold leading-snug">
             <span className="text-white">Kimova </span>
@@ -71,9 +68,7 @@ const PrecisionAISection: FC = () => {
           </h2>
         </div>
 
-        {/* Card Section */}
         <div className="z-10 bg-white text-black rounded-xl shadow-lg grid grid-cols-1 lg:grid-cols-2 p-6 sm:p-10 gap-8 max-w-6xl w-full">
-          {/* Left Content */}
           <div>
             <h3 className="text-xl font-semibold mb-6">
               Activate your data and empower decisions with AI.
@@ -98,7 +93,6 @@ const PrecisionAISection: FC = () => {
             </div>
           </div>
 
-          {/* Right Content - Responsive Image */}
           <div className="flex justify-center items-center">
             <div className="relative w-full aspect-square max-w-sm">
               <Image
@@ -112,10 +106,8 @@ const PrecisionAISection: FC = () => {
         </div>
       </section>
 
-      {/* === SECOND SECTION === */}
       <section className="relative w-full bg-gradient-to-b from-[#1c0c07] to-black px-4 py-20">
         <div className="relative bg-white rounded-xl shadow-xl max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 p-6 sm:p-10 z-10">
-          {/* Left Image */}
           <div className="rounded-lg overflow-hidden">
             <Image
               src="/ai-data-set.webp"
@@ -126,7 +118,6 @@ const PrecisionAISection: FC = () => {
             />
           </div>
 
-          {/* Right Content */}
           <div className="flex flex-col justify-center space-y-6">
             <div>
               <h3 className="text-2xl font-semibold text-black">

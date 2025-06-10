@@ -43,7 +43,6 @@ export default function ResourceSection() {
   return (
     <section className="bg-[#120702] text-white px-4 py-16 sm:px-6">
       <div className="max-w-7xl mx-auto relative">
-        {/* Header */}
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-10 gap-4">
           <h2 className="text-2xl sm:text-3xl font-semibold leading-tight">
             Stay ahead with <span className="text-orange-500">Kimova Insights.</span>
@@ -65,7 +64,6 @@ export default function ResourceSection() {
         </div>
 
         <div className="flex flex-col md:flex-row gap-8">
-          {/* Tabs */}
           <div className="md:w-1/5 flex md:flex-col gap-4 overflow-x-auto md:overflow-visible text-sm font-medium text-gray-400 whitespace-nowrap">
             {tabs.map((tab) => (
               <button
@@ -82,7 +80,6 @@ export default function ResourceSection() {
             ))}
           </div>
 
-          {/* Video Carousel */}
           <div className="md:w-4/5">
             <div
               ref={scrollRef}
@@ -113,7 +110,6 @@ export default function ResourceSection() {
           </div>
         </div>
 
-        {/* Dots */}
         <div className="flex justify-center mt-6 gap-2">
           {videoData.map((_, index) => (
             <span

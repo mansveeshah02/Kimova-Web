@@ -33,7 +33,6 @@ const experts: ExpertCardProps[] = [
 export default function ExpertConnectSection() {
   return (
     <section className="bg-black text-white">
-      {/* === EXPERT SECTION === */}
       <div className="py-20 px-4 sm:px-6 max-w-7xl mx-auto">
         <h2 className="text-2xl sm:text-4xl font-semibold text-center mb-6">
           <span className="text-orange-500">Connect</span> With Our Experts.
@@ -71,17 +70,14 @@ export default function ExpertConnectSection() {
         </div>
       </div>
 
-      {/* === EMAIL SUBSCRIBE SECTION === */}
       <div className="bg-[#111] py-16 px-4 sm:px-6">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-          {/* Text Side */}
           <div>
             <h3 className="text-2xl sm:text-3xl font-semibold mb-4 leading-snug">
               Stay in sync with Kimova’s latest innovations and alerts
             </h3>
           </div>
 
-          {/* Form Side */}
           <div>
             <form className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
               <input

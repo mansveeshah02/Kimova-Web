@@ -11,7 +11,6 @@ export default function Header() {
   return (
     <header className="w-full bg-gradient-to-b from-[#5b3124] to-[#1b0a05] shadow-sm fixed top-0 z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
-        {/* Logo */}
         <Link href="/">
           <Image
             src="/Logo.png"
@@ -22,7 +21,6 @@ export default function Header() {
           />
         </Link>
 
-        {/* Desktop Nav */}
         <nav className="hidden md:flex items-center space-x-8 text-sm text-white font-medium">
           <Link href="#platform" className="hover:text-orange-600">Platform</Link>
           <Link href="#precision-ai" className="hover:text-orange-600">Precision AI</Link>
@@ -31,14 +29,12 @@ export default function Header() {
           <Link href="#team" className="hover:text-orange-600">Team</Link>
         </nav>
 
-        {/* CTA Button */}
         <Link href="/demo" className="hidden md:inline-block">
           <button className="bg-orange-500 hover:bg-orange-600 text-white text-sm px-5 py-2 rounded-lg pl-6">
             Login
           </button>
         </Link>
 
-        {/* Hamburger Icon */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden text-white"
@@ -47,7 +43,6 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden bg-[#1b0a05] text-white px-6 pb-6 space-y-4 pt-3">
           <Link href="#platform" onClick={() => setIsOpen(false)} className="block hover:text-orange-500">Platform</Link>

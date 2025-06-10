@@ -6,7 +6,6 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <section className="group relative h-[90vh] flex items-center justify-center text-white overflow-hidden px-4">
-      {/* Background Image with Zoom on Hover */}
       <div className="absolute inset-0 -z-50 transition-transform duration-[3000ms] scale-100 group-hover:scale-125">
         <Image
           src="/Tallin-map.png"
@@ -16,10 +15,8 @@ export default function Hero() {
         />
       </div>
 
-      {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/50 z-10" />
 
-      {/* Main Content */}
       <div className="relative z-20 text-center max-w-3xl">
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight">
           Smarter AI for Cybersecurity

@@ -5,7 +5,6 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <section className="relative w-full min-h-screen text-white overflow-hidden flex items-center justify-center px-4 sm:px-6 py-12 sm:py-20">
-      {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <Image
           src="/video2.png"
@@ -17,7 +16,6 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/80 via-black/60 to-black/90" />
       </div>
 
-      {/* Content */}
       <div className="relative z-10 max-w-7xl w-full text-center">
         <h1 className="text-3xl sm:text-4xl lg:text-6xl font-semibold leading-snug sm:leading-tight mb-6">
           AI empowers innovation,
@@ -34,9 +32,7 @@ export default function HeroSection() {
           Explore Solutions →
         </button>
 
-        {/* 3-column content cards */}
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 sm:gap-12 text-left text-sm px-2 sm:px-4">
-          {/* Card 1 */}
           <div>
             <Image
               src="/teaser-icon-1.svg"
@@ -61,7 +57,6 @@ export default function HeroSection() {
             </a>
           </div>
 
-          {/* Card 2 */}
           <div>
             <Image
               src="/teaser-icon-2.svg"
@@ -89,7 +84,6 @@ export default function HeroSection() {
             </a>
           </div>
 
-          {/* Card 3 */}
           <div>
             <Image
               src="/teaser-icon-3.svg"

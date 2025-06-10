@@ -13,7 +13,6 @@ const Footer: FC = () => {
   return (
     <footer className="bg-gradient-to-b from-[#341911] to-black text-white py-12 px-6">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
-        {/* Column 1: Logo + Description */}
         <div className="space-y-4">
           <Link href="/" className="inline-block text-xl font-bold text-orange-500">
             Precision AI
@@ -23,7 +22,6 @@ const Footer: FC = () => {
           </p>
         </div>
 
-        {/* Column 2: Navigation */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
           <ul className="space-y-2 text-sm text-white/70">
@@ -34,7 +32,6 @@ const Footer: FC = () => {
           </ul>
         </div>
 
-        {/* Column 3: Social Media */}
         <div>
           <h4 className="text-lg font-semibold mb-4">Connect With Us</h4>
           <div className="flex gap-6 text-2xl text-orange-500">
